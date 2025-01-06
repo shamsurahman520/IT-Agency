@@ -1,0 +1,15 @@
+
+[
+    { "id": 1, "path": "/assets/partner1.png"},
+    { "id": 2, "path": "/assets/partner2.png"},
+    { "id": 3, "path": "/assets/partner3.png"},
+    { "id": 4, "path": "/assets/partner4.png"},
+    { "id": 5, "path": "/assets/partner5.png"},
+    { "id": 6, "path": "/assets/partner6.png"},
+    { "id": 7, "path": "/assets/partner7.png"},
+    { "id": 8, "path": "/assets/partner8.png"},
+    { "id": 9, "path": "/assets/partner9.png"},
+    { "id": 10, "path": "/assets/partner10.png"},
+    { "id": 11, "path": "/assets/partner11.png"},
+    { "id": 12, "path": "/assets/partner12.png"}
+  ]

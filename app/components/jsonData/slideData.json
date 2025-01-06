@@ -1,0 +1,14 @@
+ [
+    {
+      "id": 1,  "img": "/assets/blog1.jpg", "label":"Technology", "year":"Feb 15, 2024", "heading":"The Most Popular New top Business Apps", "disc":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete"
+    },
+    {
+       "id": 2, "img": "/assets/blog2.jpg", "label":"Agency", "year":"Feb 16, 2024", "heading":"The Best Marketing top use Management Tools", "disc":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete"
+    },
+    {
+       "id": 3, "img": "/assets/blog3.jpg", "label":"IT Agency", "year":"Feb 17, 2024", "heading":"3 WooCommerce Plugins to Boost Sales", "disc":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete"
+    },
+    {
+       "id": 4, "img": "/assets/blog4.jpg", "label":"Development", "year":"Feb 17, 2024", "heading":"Top 21 Must-Read Blogs For Creative Agencies", "disc":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete"
+    }
+ ]

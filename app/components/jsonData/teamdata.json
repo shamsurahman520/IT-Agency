@@ -1,0 +1,17 @@
+ [
+        {
+            "img": "/assets/team1.jpg",
+            "name": "James White",
+            "prof": "CEO & Founder"
+        },
+        {
+            "img": "/assets/team2.jpg",
+            "name": "Johnson Lee",
+            "prof": "Backend Specialist"
+        },
+        {
+            "img": "/assets/team3.jpg",
+            "name": "Williams Smith",
+            "prof": "Front-end Specialist"
+        }
+    ]

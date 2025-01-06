@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Explore",
+    "links": ["Home", "About", "Services", "Portfolio", "Team"]
+  },
+  {
+    "title": "Quick Links",
+    "links": ["Contact Us", "Pricing", "Faq", "Privacy Policy", "Terms & Conditions"]
+  },
+  {
+    "title": "Get in Touch",
+    "links": [true],
+    
+            "icons": [
+                {
+                    "icon": "MapPin",
+                    "info": "2750 Quadra Street Victoria, Canada."
+                },
+                {
+                    "icon": "Headset",
+                    "info": "+123 456 7890 "
+                },
+                {
+                    "icon": "Mail",
+                    "info": "hello@pungent.com"
+                }
+            ]
+        }
+]
+
+
