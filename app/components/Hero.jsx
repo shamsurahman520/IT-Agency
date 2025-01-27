@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import React from "react";
 
-
 const Hero = () => {
   return (
     <section
@@ -55,7 +54,6 @@ const Hero = () => {
         height={517}
         alt="heroImg"
         priority
-        className="animate-border-transform rounded-full aspect-auto"
          />
       </div>
       </div>
