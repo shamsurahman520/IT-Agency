@@ -1,20 +1,10 @@
 
 "use client"
 import Image from 'next/image';
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration
-      easing: 'ease-in-out',
-      once: true, // Whether animation should run once
-    });
-    AOS.refresh();
-  }, []);
-
   return (
     <section
       className="before:bg-[#18181b] before:absolute before:inset-0 before:opacity-85 bg-cover bg-center lg:h-screen h-[850px]"
@@ -25,15 +15,10 @@ const Hero = () => {
         {/* content div */} 
         <div className='lg:w-[43%] text-slate-50 z-10'>
         <h1 className="font-sans font-extrabold lg:text-start text-center lg:text-7xl md:text-5xl sm:text-5xl text-4xl lg:pb-9 pb-5"
-        data-aos="fade-right"
-        data-aos-duration="800"
-        data-aos-delay="100"
-        >
+       >
           We're an IT Agency</h1>
         <p className='font-inter lg:text-start text-center text-[1.14rem] pb-10'
-        data-aos="fade-right"
-        data-aos-duration="800"
-        data-aos-delay="200"
+       
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
@@ -42,9 +27,7 @@ const Hero = () => {
             <button
               type="submit"
               className="relative px-6 py-3  border-[1px]  border-[#F9004D] hover:border-white duration-700 delay-300 font-semibold rounded-md group "
-              data-aos="fade-in"
-              data-aos-duration="100"
-              data-aos-delay="300"
+             
               > 
               Get Started
              <div className="absolute inset-0 mx-auto w-full bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-0 rounded-md duration-700 delay-300 flex justify-center 
@@ -55,9 +38,6 @@ const Hero = () => {
             <button
               type="submit"
               className="relative px-6 py-3  border-[1px]  border-white hover:border-[#F9004D] duration-700 delay-300 font-semibold rounded-md group "
-              data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="400"
               > 
               How It Works
              <div className="absolute inset-0 mx-auto w-0 bg-transparent hover:bg-gradient-to-r  from-pink-500 to-orange-500  group-hover:w-full rounded-md duration-700 delay-300 flex justify-center 
@@ -68,8 +48,6 @@ const Hero = () => {
         </div>
         {/* image div */}  
       <div className="lg:w-[43%] aspect-[600/600] lg:mt-0 mt-10 z-10"
-          data-aos="fade-left"
-          data-aos-duration="800"
           >
         <Image
         src="/assets/heroImage.jpg"
