@@ -54,6 +54,7 @@ const Hero = () => {
         height={517}
         alt="heroImg"
         priority
+        className="rounded-full"
          />
       </div>
       </div>
