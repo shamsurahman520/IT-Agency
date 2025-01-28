@@ -49,7 +49,7 @@ const Hero = () => {
       <div className="lg:w-[43%] aspect-[600/600] lg:mt-0 mt-10 z-10"
           >
         <Image
-        src="/assets/heroImage.jpg"
+        src="/assets/HeroImage.jpg"
         width={516}
         height={517}
         alt="heroImg"
